@@ -12,7 +12,7 @@ import numpy as np
 from PIL import Image
 
 img=Image.open('/tree.jpg')
-img.resize((500,300))
+img=img.resize((500,300))
 img
 
 logo=Image.open('/logo.jfif')
